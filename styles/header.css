@@ -1,10 +1,19 @@
 @import url('../styles/reset.css');
 @import url('../styles/main.css');
 @import url('../styles/footer.css');
+@import url('../styles/variables.css');
 
 @font-face {
     font-family: 'Roboto';
-    src: url(../fonts/Roboto-Bold.ttf) format(ttf);
+    src: url('/fonts/Roboto-ExtraBold.woff2') format(woff2);
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Bold.woff2') format(woff2);
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -12,8 +21,23 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url(../fonts/Roboto-SemiBold.ttf) format(ttf);
+    src: url('/fonts/Roboto-SemiBold.woff2') format(woff2);
     font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yellowtail';
+    src: url('../fonts/Yellowtail-Regular.woff2') format(woff2);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open-sans';
+    src: url('../fonts/OpenSans-Regular.woff2') format(woff2);
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
@@ -23,6 +47,7 @@ html {
 }
 
 body {
+    max-width: 1920px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     background-color: #fff;
@@ -63,7 +88,7 @@ body {
     font-family: inherit;
     font-weight: 700;
     font-size: 1.25rem;
-    color: #274C5B;
+    color: var(--color-primary);
     letter-spacing: 0;
     line-height: 100%;
 }
@@ -78,13 +103,28 @@ body {
     border: 1px solid #E0E0E0;
     background-color: transparent;
     padding-right: 15px;
+    padding-left: 5px;
 }
 
 .cart_text {
     font-family: 'Roboto';
     font-weight: 600;
     font-size: 1.125rem;
-    color: #274c5b;
+    color: var(--color-primary);
     line-height: 100%;
     letter-spacing: 0;
+}
+
+@media  (max-width: 1200px) {
+    .header {
+        gap: 20px;
+    }
+
+    .menu__list {
+        gap: 15px;
+    }
+
+    .menu__item a {
+        font-size: 1rem;
+    }   
 }
