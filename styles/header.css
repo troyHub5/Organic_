@@ -77,11 +77,18 @@ body {
 }
 
 .header__form {
-    max-width: 376px;
+    width: 376px;
+    height: 66px;
     background-color: #FAFAFA;
     border-radius: 36px;
     margin-right: 18px;
-    margin-left: 100px;
+    padding-top: 5px;
+    
+}
+
+.header__form img {
+    margin-right: 6px;
+    margin-left: 124px;
 }
 
 .menu__item a {
@@ -99,6 +106,7 @@ body {
     justify-content: center;  
     gap: 12px;
     max-width: 159px; 
+    height: 66px;
     border-radius: 33px;
     border: 1px solid #E0E0E0;
     background-color: transparent;
