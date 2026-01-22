@@ -286,9 +286,133 @@
     
 }
 
-.swiper__bottom {
+.swiper__bottom-line {
     margin-top: 60px;
     margin-bottom: 80px;
     border: 1px solid #E0E0E0;
     max-width: 780px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.offer-prod {
+    width: 100%;
+    height: 1050px;
+    background-color: var(--color-primary);
+}
+
+.offer-prod__inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    
+    padding-top: 201px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.inner__text-subtitle {
+    color: var(--color-tail);
+    font-family: 'Yellowtail';
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 100%;
+    letter-spacing: 0;
+    margin-bottom: 8px;
+}
+
+.inner__text-title {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 3.125rem;
+    line-height: 100%;
+    letter-spacing: 0;
+    margin-bottom: 50px;
+}
+
+.offer-prod__btn {
+    width: 256px;
+    height: 79px;
+    background-color: #EFD372;
+    border-radius: 16px;
+}
+
+.offer-prod__galary {
+    width: 1400px;
+    height: 439px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.WhoWeAre {
+    width: 100%;
+    height: 931px;
+    display: flex;
+}
+
+.WhoWeAre__content {
+    width: 789px;
+    height: 723px;
+    border-radius: 30px;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left: -80px;
+    padding-top: 78px;
+    padding-left: 89px;
+    padding-right: 105px;
+}
+
+.WhoWeAre__subtitle {
+    font-family: 'Yellowtail';
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: var(--color-tail);
+    margin-bottom: 8px;
+}
+
+.WhoWeAre__title {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 3.125rem;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: var(--color-primary);
+    margin-bottom: 35px;
+}
+
+.item__title {
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: var(--color-primary);
+    margin-bottom: 7px;
+}
+
+.item__subtitle {
+    font-family: 'Open-sans';
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 165%;
+    letter-spacing: 0;
+    color: var(--color-paragraph);
+    margin-bottom: 35px;
+}
+
+.three {
+    width: 100%;
+    height: 957px;
+    background-color: #F1F8F4;
+}
+
+.inner__box {
+    width: 100%;
+    height: 583px;
+    display: flex;
+    justify-content: space-between;
 }
