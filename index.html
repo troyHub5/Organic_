@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
     <title>Organic</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles/header.css">
-              
 </head>
 <body>
     <header class="header">
@@ -134,7 +133,6 @@
                 <h3 class="counter__content-title">What Our Customer Saying?</h3>
                 <div class="swiper">
                     <div class="swiper-wrapper">
-                    
                         <div class="swiper-slide"> 
                             <img src="images/face.png" alt="face" class="face">
                             <div>
@@ -147,8 +145,11 @@
                             <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
                             <p>Sara Taylor</p>
                             <p>Consumer</p>
+                        </div>
+                        
                    
-                        <div class="swiper-slide"><img src="images/face.png" alt="face" class="face">
+                        <div class="swiper-slide">
+                            <img src="images/face.png" alt="face" class="face">
                             <div>
                                 <img src="images/icon/star.svg" alt="star" class="star">
                                 <img src="images/icon/star.svg" alt="star" class="star">
@@ -160,6 +161,7 @@
                             <p>Sara Taylor</p>
                             <p>Consumer</p>
                         </div>
+
                         <div class="swiper-slide"><img src="images/face.png" alt="face" class="face">
                             <div>
                                 <img src="images/icon/star.svg" alt="star" class="star">
@@ -174,6 +176,9 @@
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
+                    <!--<div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>-->
+
                 </div>
                 
             </div>
@@ -234,14 +239,36 @@
         </section>
         <section class="three">
             <div class="inner__box">
-                <div>Organic Juice</div>
-                <div>Organic Food</div>
-                <div>Nuts Coocis</div>
+                <div class="juice"><p>Organic Juice</p></div>
+                <div class="food"><p>Organic Food</p></div>
+                <div class="coocis"><p>Nuts Coocis</p></div>
+            </div>
+        </section>
+        <section class="organicJuice">
+            <div class="container-juice">
+                <div class="organicJuice__contant">
+                    <div class="organicJuice__heading">
+                        <p class="organicJuice__subtitle">News</p>
+                        <h4 class="organicJuice__title">Discover weekly content about organic food, & more</h4>
+                    </div>
+                    <button class="organicJuice__btn">
+                        <span>More news</span>
+                        <img src="images/icon/Aerrow.svg" alt="">
+                    </button>
+                </div>
+                <div class="organicJuice__dates">
+                    <div class="salat"><div class="salat-inner"><p>25 Nov</p></div></div>
+                    <div class="tomatos"><div class="tomatos-inner"><p>25 Nov</p></div></div>
+                </div>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
         </section>
     </main>
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    <script src="script/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
