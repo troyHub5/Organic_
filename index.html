@@ -134,17 +134,19 @@
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"> 
-                            <img src="images/face.png" alt="face" class="face">
-                            <div>
+                            <div class="inner__face">
+                                <img class="slider-face" src="images/face.png" alt="face">
+                            </div>
+                            <div class="slider__stars">
                                 <img src="images/icon/star.svg" alt="star" class="star">
                                 <img src="images/icon/star.svg" alt="star" class="star">
                                 <img src="images/icon/star.svg" alt="star" class="star">
                                 <img src="images/icon/star.svg" alt="star" class="star">
                                 <img src="images/icon/star.svg" alt="star" class="star">
                             </div>  
-                            <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-                            <p>Sara Taylor</p>
-                            <p>Consumer</p>
+                            <p class="slider__lorem">Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+                            <p class="slide__name">Sara Taylor</p>
+                            <p class="slide__prof">Consumer</p>
                         </div>
                         
                    
@@ -185,20 +187,20 @@
             <hr class="swiper__bottom-line">
             <div class="circle">
                 <div class="counters">
-                    <p>100%</p>
-                    <p>Organic</p>
+                    <p class="counter__line1">100%</p>
+                    <p class="counter__line2">Organic</p>
                 </div>
                 <div class="counters">
-                    <p>285</p>
-                    <p>Active Product</p>
+                    <p class="counter__line1">285</p>
+                    <p class="counter__line2">Active Product</p>
                 </div>
                 <div class="counters">
-                    <p>350+</p>
-                    <p>Organic Orchads</p>
+                    <p class="counter__line1">350+</p>
+                    <p class="counter__line2">Organic Orchads</p>
                 </div>
                 <div class="counters">
-                    <p>25+</p>
-                    <p>Years of Farming</p>
+                    <p class="counter__line1">25+</p>
+                    <p class="counter__line2">Years of Farming</p>
                 </div>
             </div>
         </section>
@@ -210,7 +212,7 @@
                 </div>
                 <button class="offer-prod__btn">
                     <span>View All Product</span>
-                    <img src="images/icon/Aerrow.svg" alt="aerrow">
+                    <img src="images/icon/Aerrow.svg" alt="aerrow" width="19" height="19">
                 </button>
             </div>
             <div class="offer-prod__galary">
@@ -260,14 +262,44 @@
                     <div class="salat"><div class="salat-inner"><p>25 Nov</p></div></div>
                     <div class="tomatos"><div class="tomatos-inner"><p>25 Nov</p></div></div>
                 </div>
-                <div>
-                    <div></div>
-                    <div></div>
+                <div class="admines">
+                    <div class="admines__card-left">
+                        <div class="card-left__inner">
+                            <img src="images/icon/siluet.svg" alt="siluet">
+                            <p class="admines__name">By Rachi Card</p>
+                        </div>
+                        <h5 class="card__left-title">The Benefits of Vitamin D & How to Get It</h5>
+                        <p class="card__left-subtitle">Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                        <button class="card__left-btn">
+                            <span>Read more</span>
+                            <img src="images/icon/Aerrow.svg" alt="aerrow">
+                        </button>
+                    </div>
+                    <div class="admines__card-right">
+                        <div class="card-right__inner">
+                            <img src="images/icon/siluet.svg" alt="siluet">
+                            <p class="admines__name">By Rachi Card</p>
+                        </div>
+                        <h5 class="card__right-title">Our Favourite Summertime Tommeto</h5>
+                        <p class="card__right-subtitle">Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                        <button class="card__right-btn">
+                            <span>Read more</span>
+                            <img src="images/icon/Aerrow.svg" alt="aerrow">
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="footer__container">
+            <h3>Subscribe to our Newsletter</h3>    
+            <form action="">
+                <input type="text">
+                <button>Subscribe</button>
+            </form>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
